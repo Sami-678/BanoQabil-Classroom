@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<Style>
+   nav 
+{
+    border:2px solid black;
+    margin: 100px 900px 200px 50px;
+    border-radius: 23px;
+    text-align: center;
+    padding: 0px 10px 10PX 10PX;
+  background-color: #252525;
+}
+.header{
+    padding-top: 0px;
+    color: rgb(240, 247, 255);
+}
+button{
+   
+    border-radius: 23px;
+background-color:burlywood ;
+padding-bottom: 6px;
+
+}
+</Style>
+<body>
+  
+   <nav>
+      <h2 class="header">CALCULATOR</h2>
+     <hr>
+          <button onclick= add()>
+           (+) 
+            <br>
+            Add
+         </button>
+         <button onclick= mul()> (*)<br>Multiply</button>
+         <button onclick= sub()> (-) <br> Subtract</button>
+         <button onclick= div()> (/) <br> Divide</button>
+
+</nav>
+<!-- <button onclick= greet()>Click</button>  -->
+      <!-- <button onclick login()>LOGIN</button>
+    <button onclick logout()>LOGOUT</button>  -->
+    <script> 
+                                           //  Add,sub,mult,divide
+function add(){
+   let a =+prompt("Enter First Number")
+   let b =+prompt("Enter Second Number")
+   let c = a+b
+   alert(c)
+}
+function mul(){
+   let a =prompt("Enter First Number")
+   let b =prompt("Enter Second Number")
+   let c= a*b
+   alert(c)
+}
+function sub(){
+   let a =prompt("Enter First Number")
+   let b =prompt("Enter Second Number")
+   let c= a-b
+   alert(c)
+}
+function div(){
+   let a =prompt("Enter First Number")
+   let b =prompt("Enter Second Number")
+   let c= a/b
+   alert(c)
+}
+
+
+
+
+                                             // First
+        //    function greet(name,age)
+        //    {
+        //        alert(`your name is ${name} , your age is ${age}`)
+        //    }
+        //    greet("Sami","14")
+
+
+
+   //   function greet(name,age)
+   //   {
+   //      let a=prompt("Enter your Name")
+   //      let b=prompt("Enter your Age")
+   //      alert(`your name is ${name} , your age is ${age}`)
+   //   }
+   //   greet("Sami","14")    
+     
+     
+                                                // Second
+    //  let a =["Ali","Sami","Usama","saad"]
+    //  document.write(a[2])
+    
+    //  let student_name =["Ali","Sami","Usama","saad"]
+    //  document.write( student_name[2])
+                                           // Third
+    //  
+                                            // Fourth(login,logout)
+// console.log("active users before")
+// let student_name =["sami","ahmed","ali","asad"]
+ 
+// function login()
+// {
+//  user=prompt("Enter your name")
+//    student_name.push(user)
+// console.log("student names after push")
+//     consle.log(student_name)
+// }
+// login()
+// function logout(student_name)
+// {
+//    user=prompt("Enter your name")
+//    student_name.pop(user)
+// console.log("student names after pop")
+//    consle.log(student_name)
+// }
+// logout()
+
+
+//  let user_names =["Sami","Ali","Ahmed","Saad"]
+//  console.log("Active users before Login")
+//  console.log(user_names)
+
+//  function login()
+//  {
+//     user = prompt(`Enter your name`)
+//     user_names.push(user)
+//  console.log("user login")
+//     consle.log(user_names)
+//  }
+//  function logout()
+//  {
+//     user = prompt(`Enter your name`)
+//     user_names.pop(user)
+//  console.log("user logout")
+//     consle.log(user_names)
+//  }
+                                       // Fifth
+// let Student_age=[2,3,4,5]
+// console.log()
+
+
+                                          // Sixth
+//  let student_detail={
+//     "name":"Sami",
+//     "age":"3",
+//     "city":"karachi"
+// }
+//  console.log(student_detail)
+//  console.log(student_detail.age)
+
+                                              // Seventh
+
+//  let user1={
+//      "name":"Sami",
+//      "age":"12",
+//      "city":"karachi",
+//      "cars":["Civic","Vigo","Mercediese"]
+//  }
+//  let user2={
+//      "name":"Ali",
+//      "age":"13",
+//      "city":"Lahore"
+//  }
+//  let users = [user1,user2]
+//  console.log(users)
+//    console.log(user1.cars)
+      </script>     
+</body>
+</html>
