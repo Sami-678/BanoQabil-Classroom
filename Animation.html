@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation using html and css</title>
+    <style>
+        .div1 {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            animation-iteration-count: infinite;
+            animation-name: Sami;
+            animation-duration: 8s;
+             position: relative; 
+            animation-direction: alternate;
+            text-align: center;
+            padding-top: 5px;
+        }
+
+        .div2 {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            animation-iteration-count: infinite;
+            animation-name: Wasay;
+            animation-duration: 8s;
+            position: relative;
+            animation-direction: alternate;
+            margin-top: 0%;
+            text-align: center;
+        
+        }
+
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        @keyframes Sami {
+            0% {
+                background-color: grey;
+                left: 0px;
+                top: 300px;
+            }
+
+            25% {
+                background-color: rgb(7, 226, 7);
+                left: 650px;
+                top: 0px
+            }
+
+            50% {
+           background-color: blue;
+                left: 1330px;
+                top: 300px;
+            }
+              
+            70% {
+                background-color: maroon;
+                left: 650px;
+                top: 650px;
+            }
+
+            100% {
+                background-color: blueviolet;
+                left: 0px;
+                top: 300px
+            }
+
+
+        }
+      
+
+        
+
+
+        .container {
+            height: 45vh;
+            /* width: 300px; */
+            width: 30%;
+            border: 2px solid rgb(126, 233, 122);
+            margin: auto;
+            /* margin-top: 50px; */
+            padding: 10px;
+            overflow: auto;
+            border-radius: 23px;
+            border-right-color: pink;
+            border-left-color: greenyellow;
+            border-top-color: red;
+            border-bottom-color: blue;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .footer {
+            font-size: medium;
+            font-weight: bold;
+            margin-left: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <h1>Hello</h1>
+    </div>
+    <div class="div2">
+        <h1>Hello</h1>
+    </div>
+    <div class="container">
+        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid laboriosam officiis accusantium nostrum quas, dicta, quam tempora, eos facilis ipsam corrupti. Dolores nam cupiditate adipisci, dolorem quasi inventore iusto numquam.</p> -->
+        <h2>Animation in CSS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi suscipit pariatur vel! Placeat, nihil? Harum,
+            dolorem! Voluptates vitae sit officiis inventore debitis porro, odio recusandae, possimus culpa saepe ut
+            corporis, sapiente eum nam quia eveniet corrupti facilis! Nobis beatae error sit doloribus eligendi dolorem
+            natus minima sint neque distinctio perspiciatis inventore ipsum consequuntur repellendus nihil minus
+            quisquam quod quam, velit temporibus quia! Error, voluptatem eveniet eius ut tempore hic voluptates quaerat.
+            Aliquid hic voluptate quidem beatae, qui voluptatibus doloribus quod unde molestiae? Voluptatem quos
+            voluptas atque quod cum possimus, dolores debitis recusandae nemo vero officiis eius nobis vitae labore
+            culpa. Obcaecati modi libero repudiandae, ullam rem unde!.
+
+        </p>
+        <span class="footer">Made by "Sami Tariq"</span>
+    </div>
+
+</body>
+
+</html>
